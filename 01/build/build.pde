@@ -5,7 +5,7 @@ color  fg       = #f1f1f1;
 color  pink     = #FFC0CB;
 color  cyan     = #00FFFF;
 String pathDATA = "../../data/";
-boolean letsRender = true;
+boolean letsRender = false;
 // ********************************************************************************************************************
 
 void settings() {

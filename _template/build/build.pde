@@ -36,7 +36,7 @@ PShader shader;
 
 // UTILITIES ********************************************************************************************************************
 
-boolean   letsRender   = true;
+boolean   letsRender   = false;
 boolean   letsRenderHD = false;
 
 int       renderNum    = 0;

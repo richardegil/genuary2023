@@ -15,15 +15,15 @@ color   fg         = #F1F1F1;
 color   pink       = #FFC0CB;
 color   cyan       = #00FFFF;
 color   purple     = #590F70;
+color 	grey     	 = #5A5F79;
 
-color[] colors = {
+color[] cols = {
   pink,
 	cyan,
 	purple,
 	fg,
 	bg
 };
-
 // PROJECT ********************************************************************************************************************
 
 // IMAGES  ********************************************************************************************************************
@@ -111,7 +111,6 @@ void draw() {
 
 	float n = noise( 0.01 + frameCount * 0.001);
 
-	background(bg);
 	noStroke();
 
 	translate(_w / 2, _h / 2, 0);
@@ -128,9 +127,6 @@ void draw() {
 		_whichCanvas.image(_child1,0,0);
 	_whichCanvas.endDraw();
 	
-
-	background(bg);
-
 	if (!letsRenderHD) {
 		image(_whichCanvas,0,0);
 	}
